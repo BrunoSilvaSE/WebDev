@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Cabeçalho (Header)-->
+
+    <header>
+        <nav class="cabecalho">
+            <a href="#sobre" class="menuItem">Sobre</a>
+            <a href="#projetos" class="menuItem">Projetos</a>
+            <a href="#contato" class="menuItem">Contato</a>
+        </nav>
+    </header>
+
+    <section id="sobre" class="secao">
+    <div class="perfil">
+        <div class="PerfilImgNam">
+            <img src="img/FotoDePerfil.jpeg" alt="Foto de perfil">
+            
+        </div>
+    <!--Secção Sobre-->
+        <div class="sobre">
+            <h1>👋OI!<br>Me chamo Bruno Ferreira Silva</h1>
+            <p>sou estudante de Engenharia de Software na Universidade Federal de Goiás, com foco no desenvolvimento de aplicações em Go (Golang). Tenho interesse em backend, arquitetura de software e sistemas distribuídos. Busco sempre escrever código limpo, eficiente e escalável, valorizando o aprendizado contínuo e a colaboração em equipe.
+            </p>
+        </div>
+    </div>
+    <section id="projetos" class="secao">
+    <!--Projetos-->
+    <div class="main-projetos">
+        <h2>Projetos:</h2>
+        <div class="projetos-grid">
+            <div class="project-card">
+                <img src="img/Minecraft.jpg" alt="imagem do jogo Minecraft">
+                <div class="project-text">
+                    <h3>Minecraft</h3>
+                    <p>Criei o Minecraft para ser um mundo aberto onde a criatividade fosse a única regra. O desafio foi transformar blocos simples em um universo cheio de possibilidades, com sobrevivência, redstone e geração procedural.</p>
+                </div>
+                <a href="https://www.minecraft.net/en-us" target="_blank">ver mais</a>
+            </div>
+            <div class="project-card">
+                <img src="img/Roblox.jpg" alt="imagem do jogo Roblox">
+                <div class="project-text">
+                    <h3>Roblox</h3>
+                    <p>Criei o Roblox para ser uma plataforma para explorar a criatividade de diversos game dev por todo o mundo! Além disso, a plataforma é de facil acesso ao público geral, sendo acessado por diversos usuários por todo o mundo.</p>
+                </div>
+                <a href="https://www.roblox.com" target="_blank">ver mais</a>
+            </div>
+            <div class="project-card">
+                <img src="img/Linux.jpg" alt="Logo do linux">
+                <div class="project-text">
+                    <h3>Linux</h3>
+                    <p>Desenvolvi o Linux por acreditar em software livre e acessível. O que começou como um kernel modesto virou a base de sistemas operacionais mundo afora, de servidores a smartphones. A comunidade foi o que tornou tudo possível.</p>
+                </div>
+                <a href="https://github.com/torvalds/linux" target="_blank">ver mais</a>
+            </div>
+        </div>
+    </div>
+    <!--Contato-->
+    <section id="contato" class="secao">
+    <div class="main-contato">
+        <div class="left-contato">
+            <h2>Converse comigo!</h2>
+            <img class="left-contato-image" src="img/contact-us.svg" alt="Mulher falan do ao telefone">
+        </div>
+        <div class="right-contato">
+            <div class="card-contato">
+                <h3>Preencha e entre em contato!</h3>
+                <div class="text-field">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" placeholder="Digite seu nome">
+                </div>
+                <div class="text-field">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" placeholder="Digite seu email">
+                </div>
+                <div class="text-field">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea name="mensagem" id="" placeholder="Digite sua mensagem"></textarea>
+                </div>
+                <button class="btn-contato">Enviar!</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; Copyright by Bruno Silva</p>
+    </footer> 
+</body>
+</html>
